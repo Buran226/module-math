@@ -1,7 +1,9 @@
 package main
 
-import "math/internal/math"
-import "fmt"
+import (
+	"fmt"
+	"math/internal/math"
+)
 
 func main() {
 	fmt.Println(math.Exponential(2, 10))
